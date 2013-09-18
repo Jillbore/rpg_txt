@@ -1,0 +1,23 @@
+2013 September 3
+
+Mapping = Insanity!
+
+-----	-----	-----		Room Archetype?
+|   |	|   |	|   |		   |----1
+|0,0|	|0,1|	|0,2|		   |	2
+|   |	|   |	|   |	     Lvl1--|	3
+-----	-----	-----		   |	4
+				   |----5
+	-----			   |----6
+	|   |			   |	7
+	|1,2|		     Lvl2--|	8
+	|   |			   |	9
+	-----			   |----10
+					
+				room=rand(1,x)+(x(lvl))
+					x = archetypes per level
+	(h,k)
+	East: 	h+=1
+	West: 	h-=1
+	North:	k-=1
+	South:	k+=1
