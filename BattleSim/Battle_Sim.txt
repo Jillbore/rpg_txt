@@ -1,0 +1,9 @@
+Player with stats   (creature class)
+Creature with stats (creature class) + AI
+
+Damage system: function(creature attacker, creature defender)
+   Way of selecting enemy--pointers??
+
+
+UI
+
