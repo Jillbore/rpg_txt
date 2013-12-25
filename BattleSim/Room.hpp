@@ -21,6 +21,11 @@ class Room
         this->east = east;
         this->south = south;
         this->west = west;
+    }
+    
+    std::string getLocation()
+    {
+        return "" + x + ", " + y;   
     }      
              
 };
