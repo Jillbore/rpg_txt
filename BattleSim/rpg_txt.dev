@@ -1,7 +1,7 @@
 [Project]
-FileName=..\..\..\..\..\Dev-Cpp\Project1.dev
+FileName=..\rpg_txt.dev
 Name=Project1
-UnitCount=5
+UnitCount=4
 Type=1
 Ver=1
 ObjFiles=
@@ -30,7 +30,7 @@ CompilerSet=0
 CompilerSettings=
 
 [Unit1]
-FileName=..\..\..\Dropbox\Werk\Text adventure\BattleSim\Battle.cpp
+FileName=..\..\..\..\Dropbox\Werk\Text adventure\BattleSim\Battle.cpp
 CompileCpp=1
 Folder=Project1
 Compile=1
@@ -40,7 +40,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit2]
-FileName=..\..\..\Dropbox\Werk\Text adventure\BattleSim\Creature.hpp
+FileName=..\..\..\..\Dropbox\Werk\Text adventure\BattleSim\Creature.hpp
 CompileCpp=1
 Folder=Project1
 Compile=1
@@ -68,17 +68,7 @@ ProductVersion=
 AutoIncBuildNr=0
 
 [Unit3]
-FileName=..\..\..\..\..\Dev-Cpp\Room.hpp
-CompileCpp=1
-Folder=
-Compile=1
-Link=1
-Priority=1000
-OverrideBuildCmd=0
-BuildCmd=
-
-[Unit4]
-FileName=..\..\..\..\..\Dev-Cpp\Map.hpp
+FileName=Room.hpp
 CompileCpp=1
 Folder=
 Compile=1
@@ -89,6 +79,16 @@ BuildCmd=
 
 [Unit5]
 FileName=..\..\..\..\..\Dev-Cpp\Map.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=0
+BuildCmd=
+
+[Unit4]
+FileName=Map.cpp
 CompileCpp=1
 Folder=
 Compile=1
